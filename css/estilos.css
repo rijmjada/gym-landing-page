@@ -58,6 +58,28 @@ body {
     
 }
 
+#footer-icons a{
+    color: gray;
+    opacity: .4;
+}
+
+#footer-icons a:hover{
+    color: yellowgreen;
+    opacity: 1;
+
+}
+
+#btn-asociate {
+    display: flex;
+    justify-content:center;
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+}
+
+#btn-asociate:hover {
+    background-color: yellow;
+    border-color: yellow;
+}
 
 @media (max-width: 765px) {
 
