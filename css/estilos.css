@@ -1,0 +1,61 @@
+/***Index***/
+:root {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+
+    background-image: url('../img/fondos/gym-index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100vh;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+
+.navbar-toggler {
+    background-color: yellowgreen;
+}
+
+.navbar-brand {
+    background-color: white;
+    border-radius: 50%;
+    border-width: 25px;
+    border-style: hidden;
+    border-color: yellowgreen;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .nav-link:hover {
+        background-color: rgb(204, 240, 204);
+        border-radius: .3rem;
+    }
+
+    #navbarNavDropdown {
+        border-radius: 1rem;
+        background-color: white;
+    }
+
+    .nav-link {
+        background-color: yellowgreen;
+        color: white;
+        text-align: center;
+        text-decoration: dotted;
+    }
+
+}
