@@ -16,7 +16,14 @@ body {
 
 .nav-link {
     color: white;
-}
+}   
+
+
+
+.nav-link:hover {
+    color: yellowgreen;
+}   
+
 
 
 .navbar-toggler {
@@ -39,20 +46,23 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
 
     .nav-link:hover {
         background-color: rgb(204, 240, 204);
         border-radius: .3rem;
+        color: black;
+
     }
 
     #navbarNavDropdown {
-        border-radius: 1rem;
-        background-color: white;
+        border-radius: .3rem;
+        background-color: yellowgreen;
     }
 
     .nav-link {
         background-color: yellowgreen;
+        border-radius: .3rem;
         color: white;
         text-align: center;
         text-decoration: dotted;
