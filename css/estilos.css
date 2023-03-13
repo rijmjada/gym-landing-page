@@ -16,15 +16,12 @@ body {
 
 .nav-link {
     color: white;
+    font-size: large;
 }   
-
-
 
 .nav-link:hover {
     color: yellowgreen;
 }   
-
-
 
 .navbar-toggler {
     background-color: yellowgreen;
@@ -43,7 +40,23 @@ body {
     align-items: center;
 }
 
+#comenzar {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
+}
+
+.break {
+    height: 14rem;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    
+}
 
 
 @media (max-width: 765px) {
