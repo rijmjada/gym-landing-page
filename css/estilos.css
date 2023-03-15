@@ -1,6 +1,7 @@
 /***Index***/
 :root {
     font-family: 'Bebas Neue', cursive;
+    --link-alpha-color: rgba(150, 150, 150, 0.85);
 }
 
 body {
@@ -14,14 +15,29 @@ body {
 
 }
 
+.btn{
+    max-width: 15rem;
+}
+
+
+
+#title-index {
+    background-color: var(--link-alpha-color);
+    line-height: 1.2;
+    display: inline-block;
+    background-clip: text;
+    
+}
+
 .nav-link {
     color: white;
     font-size: large;
-}   
+
+}
 
 .nav-link:hover {
     color: yellowgreen;
-}   
+}
 
 .navbar-toggler {
     background-color: yellowgreen;
@@ -55,15 +71,15 @@ body {
     color: black;
     font-size: x-large;
     text-align: center;
-    
+
 }
 
-#footer-icons a{
+#footer-icons a {
     color: gray;
     opacity: .4;
 }
 
-#footer-icons a:hover{
+#footer-icons a:hover {
     color: yellowgreen;
     opacity: 1;
 
@@ -71,7 +87,7 @@ body {
 
 #btn-asociate {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     background-color: yellowgreen;
     border-color: yellowgreen;
 }
@@ -80,6 +96,8 @@ body {
     background-color: yellow;
     border-color: yellow;
 }
+
+
 
 @media (max-width: 765px) {
 
@@ -104,3 +122,4 @@ body {
     }
 
 }
+
