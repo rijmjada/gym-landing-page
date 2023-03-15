@@ -23,8 +23,7 @@
 
 </head>
 
-<body>
-    <!-- <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted></video> -->
+<body style="background-image:none;">
 
 
     <!--Navbar-->
@@ -84,71 +83,67 @@
 
     </nav>
 
+    <main class="container-fluid">
 
-    <main>
+        <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted style="z-index:-1"></video>
 
-        <div class="container-fluid position-relative">
-            <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted style="z-index:-1"></video>
+        <div class="row justify-content-center">
 
-            <div class="row justify-content-center">
+            <!--Texto side Formulario-->
+            <div class="col-lg-6  text-white my-5 ">
 
-                <div class="col-lg-6  text-white my-5 ">
-
-                    <p class="fs-5">MUSCULACIÓN & CLASES</p>
-                    <p class="display-2 fw-bold">PLAN TOTAL MENSUAL</p>
-                    <p class="fs-2">Entrená por $12.000 / mes </p>
-                    <p class="fs-5 fw-bold"> Activate hoy mismo. </p>
-                    <p class="fs-5">Sumate a la cadena líder de gimnasios.</p>
-
-                </div>
-
-                <div class="col-lg-4 my-5 ">
-
-                    <form action="" class="text-white fw-bold">
-
-                        <div class="mb-3">
-                            <label class="form-label " for="name">Nombre:</label>
-                            <input class="form-control" type="text" id="name" name="name"
-                                placeholder="Ingrese su nombre.." style="background-color: lightgrey;">
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="form-label" for="email">Email:</label>
-                            <input class="form-control" type="email" id="email" name="email"
-                                placeholder="Ingrese su email.." style="background-color: lightgrey;">
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="form-label" for="celular">Celular:</label>
-                            <input class="form-control" type="celular" id="celular" name="celular"
-                                placeholder="Ingrese su celular.." style="background-color: lightgrey;">
-                        </div>
-
-
-                        <div class="form-check form-switch mb-3">
-                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                            <label class="form-check-label" for="flexSwitchCheckDefault">Recibir Notificaciones</label>
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="form-label" for="comments">Comentarios:</label>
-                            <textarea class="form-control" name="comments" id="comments"
-                                placeholder="Ingresa tu comentario.." style="background-color: lightgrey;"></textarea>
-                        </div>
-                        <input class="btn btn-lg btn-success w-100" type="button" value="Solicitar info">
-
-                    </form>
-
-                </div>
+                <p class="fs-5">MUSCULACIÓN & CLASES</p>
+                <p class="display-2 fw-bold">PLAN TOTAL MENSUAL</p>
+                <p class="fs-2">Entrená por $12.000 / mes </p>
+                <p class="fs-5 fw-bold"> Activate hoy mismo. </p>
+                <p class="fs-5">Sumate a la cadena líder de gimnasios.</p>
 
             </div>
-            <br><br><br><br><br><br><br><br><br><br>
+
+            <!--Formulario-->
+            <div class="col-lg-4 my-5 ">
+
+                <form action="" class="text-white fw-bold">
+
+                    <div class="mb-3">
+                        <label class="form-label " for="name">Nombre:</label>
+                        <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su nombre.."
+                            style="background-color: lightgrey;">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Email:</label>
+                        <input class="form-control" type="email" id="email" name="email"
+                            placeholder="Ingrese su email.." style="background-color: lightgrey;">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="celular">Celular:</label>
+                        <input class="form-control" type="celular" id="celular" name="celular"
+                            placeholder="Ingrese su celular.." style="background-color: lightgrey;">
+                    </div>
+
+
+                    <div class="form-check form-switch mb-3">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Recibir Notificaciones</label>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="comments">Comentarios:</label>
+                        <textarea class="form-control" name="comments" id="comments"
+                            placeholder="Ingresa tu comentario.." style="background-color: lightgrey;"></textarea>
+                    </div>
+                    <input class="btn btn-lg btn-success w-100" type="button" value="Solicitar info">
+
+                </form>
+            </div>
 
         </div>
 
         <div class="container-fluid" style="background-color: white">
 
-            <div class="container">
+            <div class="container-fluid">
                 <br><br>
                 <p>EL MEJOR LUGAR PARA ENTRENAR</p>
                 <h3 class=" display-6 fw-bold">La red de gimnasios más grande del país </h3>
