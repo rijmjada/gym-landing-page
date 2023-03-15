@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!--GoogleFonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!--MyCSS-->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <!-- <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted></video> -->
+
+
+    <!--Navbar-->
+    <nav class="sticky-top navbar navbar-expand-md " style="background-color: yellowgreen;">
+
+        <div class="container">
+
+            <a class="navbar-brand " href="index.html">
+                <img src="img/presa.gif" alt="...">
+            </a>
+
+            <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+
+                <ul class="navbar-nav ms-lg-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link active fs-5" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sitios
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="sitios.html#ultimos-proyectos">Ultimos Proyectos</a></li>
+                            <li><a class="dropdown-item" href="sitios.html#single-page"><i>Sitio Single-Page</i></a>
+                            </li>
+                            <li><a class="dropdown-item" href="sitios.html#multi-page"><i>Sitio Multi-Page</i></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="clientes.html">Clientes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="comencemos.html">Comencemos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="contacto.html">¿Interesado?</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+        <div class="container-fluid position-relative">
+            <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted style="z-index:-1"></video>
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6  text-white my-5 ">
+
+                    <p class="fs-5">MUSCULACIÓN & CLASES</p>
+                    <p class="display-2 fw-bold">PLAN TOTAL MENSUAL</p>
+                    <p class="fs-2">Entrená por $12.000 / mes </p>
+                    <p class="fs-5 fw-bold"> Activate hoy mismo. </p>
+                    <p class="fs-5">Sumate a la cadena líder de gimnasios.</p>
+
+                </div>
+
+                <div class="col-lg-4 my-5 ">
+
+                    <form action="" class="text-white fw-bold">
+
+                        <div class="mb-3">
+                            <label class="form-label " for="name">Nombre:</label>
+                            <input class="form-control" type="text" id="name" name="name"
+                                placeholder="Ingrese su nombre.." style="background-color: lightgrey;">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email:</label>
+                            <input class="form-control" type="email" id="email" name="email"
+                                placeholder="Ingrese su email.." style="background-color: lightgrey;">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="celular">Celular:</label>
+                            <input class="form-control" type="celular" id="celular" name="celular"
+                                placeholder="Ingrese su celular.." style="background-color: lightgrey;">
+                        </div>
+
+
+                        <div class="form-check form-switch mb-3">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Recibir Notificaciones</label>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="comments">Comentarios:</label>
+                            <textarea class="form-control" name="comments" id="comments"
+                                placeholder="Ingresa tu comentario.." style="background-color: lightgrey;"></textarea>
+                        </div>
+                        <input class="btn btn-lg btn-success w-100" type="button" value="Solicitar info">
+
+                    </form>
+
+                </div>
+
+            </div>
+            <br><br><br><br><br><br><br><br><br><br>
+
+        </div>
+
+        <div class="container-fluid" style="background-color: white">
+
+            <div class="container">
+                <br><br>
+                <p>EL MEJOR LUGAR PARA ENTRENAR</p>
+                <h3 class=" display-6 fw-bold">La red de gimnasios más grande del país </h3>
+                <p>Más de 300 sedes para que elijas cómo y dónde entrenar. </p>
+                <br><br>
+                <ul class="fs-5">
+                    <li>Amplios horarios</li>
+                    <li>Salones climatizados</li>
+                    <li>Servicio de lockers</li>
+                    <li>Piletas y espacios outdoor</li>
+                    <li>App de nutrición gratuita</li>
+                    <li>SportClub Online</li>
+                    <li>Wi-fi en todas las sedes</li>
+                </ul>
+                <br><br><br><br><br>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!--Footer-->
+    <footer class="bg-light p-3 ">
+
+        <div class="container text-center">
+            <nav class="d-flex justify-content-evenly" id="footer-icons">
+                <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook fs-3"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter fs-3"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="bi bi-youtube fs-3"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram fs-3"></i></a>
+                <a href="https://messenger.com" target="_blank"><i class="bi bi-messenger fs-3"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=541163597449" target="_blank"><i
+                        class="bi bi-whatsapp fs-3"></i></a>
+            </nav>
+
+            <div class="mt-3">
+                <small class="text-dark fs-5">
+                    &copy;2023 - Diego Ormeño, hecho con fines educativos.
+                </small>
+            </div>
+
+        </div>
+
+    </footer>
+    <!--End Footer-->
+
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
