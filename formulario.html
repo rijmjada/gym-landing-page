@@ -23,7 +23,7 @@
 
 </head>
 
-<body style="background-image:none;">
+<body  style="background-image:none;">
 
 
     <!--Navbar-->
@@ -146,15 +146,18 @@
         </div>
 
         <!--Descripcion-->
-        <div class="container-fluid" style="background-color: white" id="saraza">
+        <div class="row" style="background-color: white" id="saraza">
 
-            <div class="container-fluid">
-                <br><br>
-                <p>EL MEJOR LUGAR PARA ENTRENAR</p>
-                <h3 class=" display-6 fw-bold">La red de gimnasios más grande del país </h3>
-                <p>Más de 300 sedes para que elijas cómo y dónde entrenar. </p>
-                <br><br>
-                <ul class="fs-5">
+            <div class="container">
+
+                <div class="offset-2 col-10 my-5 ">
+                    <p>EL MEJOR LUGAR PARA ENTRENAR</p>
+                    <h3 class=" display-6 fw-bold">La red de gimnasios más grande del país </h3>
+                    <p>Más de 300 sedes para que elijas cómo y dónde entrenar. </p>
+                </div>
+
+
+                <ul class="fs-5 offset-2 col-10">
                     <li>Amplios horarios</li>
                     <li>Salones climatizados</li>
                     <li>Servicio de lockers</li>
@@ -168,12 +171,80 @@
 
         </div>
 
-        <!--Preguntas Frecuentes-->
-        <div class="container-fluid" style="background-color: white">
+        <!--Banner-->
+        <div class="row">
+            <div class="col-12">
+                <img src="img/banner.jpg" alt="banner" style="  max-width: 100%;
+                ">
+            </div>
+        </div>
 
-            
-            <div class="display-6 text-center fw-bold">Preguntas Frecuentes <br><br></div>
+        <!--Preguntas Frecuentes-->
+        <div class="row" style="background-color: white">
+
+
+            <div class="display-6 text-center fw-bold mt-5">Preguntas Frecuentes <br><br></div>
+
             <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Qué membresías me ofrecen?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Ofrecemos diferentes membresías para cada uno de sus socios. Conocé cuál es la que más se
+                            adapta a vos: <br>
+
+                            Black, Platino, Classic, Solo Club, Red Córdoba, Red Rosario, Membresía Kids y Membresía
+                            Teens. <br><br>
+
+                            <i>Para más información sobre planes y membresías escribinos por WhatsApp.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Necesito un apto medico?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Para entrenar en nuestras sedes es necesario que aceptes y firmes la declaración jurada de
+                            aptitud física, requisito que rige para la totalidad de las sedes.
+
+                            Si entrenas en las sedes ubicadas en Provincia de Buenos Aires, Córdoba y Santa Fe deberás
+                            presentar un certificado de Apto Médico. Este requisito no aplica para las sedes ubicadas en
+                            Capital Federal, ya que por ley se encuentra eximida.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            ¿Cuáles son los requisitos para empezar a entrenar?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Adquirido el plan, el socio deberá descargar la App, registrarse y aceptar la Declaración
+                            Jurada de Salud. Una vez realizado esto, podrá acceder a las sedes incluidas en su plan
+                            acercando el QR en los molinetes de acceso a la misma.
+                        </div>
+                    </div>
+                </div>
+
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
@@ -184,59 +255,15 @@
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These classes
-                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                            does limit overflow.
+                            Claro cuando lo desees puedes tramitar tu baja sin costo alguno.
+                            Comunicate por WhatsApp y un asesor iniciara tu solicitud.
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Pregunta 2
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These classes
-                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                            does limit overflow.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Pregunta 3
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                            collapse plugin adds the appropriate classes that we use to style each element. These classes
-                            control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                            modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                            that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                            does limit overflow.
-                        </div>
-                    </div>
-                </div>
+
             </div>
-            
+
         </div>
-        
-
-
 
     </main>
 
@@ -256,7 +283,7 @@
             </nav>
 
             <div class="mt-3">
-                <small class="text-dark fs-5">
+                <small class="text-white fs-5">
                     &copy;2023 - Diego Ormeño, hecho con fines educativos.
                 </small>
             </div>
