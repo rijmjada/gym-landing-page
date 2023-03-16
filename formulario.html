@@ -83,14 +83,17 @@
 
     </nav>
 
-    <main class="container-fluid">
+    <main>
 
-        <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted style="z-index:-1"></video>
-
+        <!-- <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted style="z-index:-1"></video> -->
+        <video autoplay muted loop id="myVideo">
+            <source src="/img/video.mp4" type="video/mp4">
+          </video>
+          
         <div class="row justify-content-center">
 
             <!--Texto side Formulario-->
-            <div class="col-lg-6  text-white my-5 ">
+            <div class="col-lg-6 | col-md-6 | col-sm-6 | text-white my-5"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
 
                 <p class="fs-5">MUSCULACIÓN & CLASES</p>
                 <p class="display-2 fw-bold">PLAN TOTAL MENSUAL</p>
@@ -101,7 +104,7 @@
             </div>
 
             <!--Formulario-->
-            <div class="col-lg-4 my-5 ">
+            <div class="col-lg-3 | col-md-4 | col-sm-4 | my-5"  style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
 
                 <form action="" class="text-white fw-bold">
 
@@ -141,7 +144,7 @@
 
         </div>
 
-        <div class="container-fluid" style="background-color: white">
+        <div class="container-fluid" style="background-color: white" id="saraza">
 
             <div class="container-fluid">
                 <br><br>
@@ -167,7 +170,7 @@
 
 
     <!--Footer-->
-    <footer class="bg-light p-3 ">
+    <footer class="bg-light p-3 bg-dark">
 
         <div class="container text-center">
             <nav class="d-flex justify-content-evenly" id="footer-icons">
