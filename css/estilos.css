@@ -15,15 +15,24 @@ body {
     background-position: center center;
     min-height: 100vh;
     overflow-x: hidden;
-
-
 }
+
+.lista-beneficios {
+    list-style: none;
+}
+
+.lista-beneficios i {
+    color: blueviolet;
+}
+
+.lista-beneficios i:hover {
+    color: red;
+}
+
 
 .btn {
     max-width: 15rem;
 }
-
-
 
 #title-index {
     background-color: var(--link-alpha-color);
@@ -142,4 +151,6 @@ body {
     opacity: .85;
     
 }
+
+
 
