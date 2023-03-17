@@ -5,6 +5,9 @@
 }
 
 
+* {
+    box-sizing: border-box;
+}
 
 body {
 
@@ -16,6 +19,18 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: .85;
+
+}
+
 
 .btn {
     max-width: 15rem;
@@ -133,20 +148,3 @@ body {
     }
 
 }
-
-* {
-    box-sizing: border-box;
-}
-
-
-#myVideo {
-    position:fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    opacity: .85;
-
-}
-
