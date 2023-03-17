@@ -17,19 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-.lista-beneficios {
-    list-style: none;
-}
-
-.lista-beneficios i {
-    color: blueviolet;
-}
-
-.lista-beneficios i:hover {
-    color: red;
-}
-
-
 .btn {
     max-width: 15rem;
 }
@@ -110,6 +97,17 @@ body {
     border-color: yellow;
 }
 
+.lista-beneficios {
+    list-style: none;
+}
+
+.lista-beneficios i {
+    color: blueviolet;
+}
+
+.lista-beneficios i:hover {
+    color: red;
+}
 
 
 @media (max-width: 765px) {
@@ -142,15 +140,13 @@ body {
 
 
 #myVideo {
-    position: fixed;
+    position:fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
     opacity: .85;
-    
+
 }
-
-
 
