@@ -23,8 +23,7 @@
 
 </head>
 
-<body style="background-image:none;">
-
+<body style="background-image: none;">
 
     <!--Navbar-->
     <nav class="sticky-top navbar navbar-expand-md " style="background-color: yellowgreen;">
@@ -46,34 +45,21 @@
                 <ul class="navbar-nav ms-lg-auto">
 
                     <li class="nav-item ">
-                        <a class="nav-link active fs-5" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link  fs-5" aria-current="page" href="index.html">Inicio</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Sitios
+                        <a class="nav-link fs-5" href="sedes.html">
+                            Nuestras sedes
                         </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="sitios.html#ultimos-proyectos">Ultimos Proyectos</a></li>
-                            <li><a class="dropdown-item" href="sitios.html#single-page"><i>Sitio Single-Page</i></a>
-                            </li>
-                            <li><a class="dropdown-item" href="sitios.html#multi-page"><i>Sitio Multi-Page</i></a></li>
-                        </ul>
                     </li>
 
+            
                     <li class="nav-item">
-                        <a class="nav-link fs-5" href="clientes.html">Clientes</a>
+                        <a class="nav-link active fs-5" href="formulario.html">¿Interesado?</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="comencemos.html">Comencemos</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link fs-5" href="contacto.html">¿Interesado?</a>
-                    </li>
+                    
 
                 </ul>
 
@@ -83,105 +69,109 @@
 
     </nav>
 
+    <!--- background-image: url('./img/fondos/gym-index.jpg') -->
+
     <main>
-        <!-- <video class="position-fixed w-100" src="img/video.mp4" autoplay loop muted style="z-index:-1"></video> -->
-        <video autoplay muted loop id="myVideo">
-            <source src="/img/video.mp4" type="video/mp4">
-        </video>
 
-        <div class="row justify-content-center">
+        <div class="container-fluid">
 
-            <!--Texto side Formulario-->
-            <div class="col-8 col-lg-6 | col-md-6 | col-sm-6 | text-white my-5"
-                style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+            <video autoplay muted loop class="myVideo">
+                <source src="/img/video.mp4" type="video/mp4">
+            </video>
 
-                <p class="fs-5">MUSCULACIÓN & CLASES</p>
-                <p class="display-2 fw-bold">PLAN TOTAL MENSUAL</p>
-                <p class="fs-2">Entrená por $12.000 / mes </p>
-                <p class="fs-5 fw-bold"> Activate hoy mismo. </p>
-                <p class="fs-5">Sumate a la cadena líder de gimnasios.</p>
+            <div class="row justify-content-center">
 
-            </div>
+                <!--Texto side Formulario-->
+                <div class="col-8 col-lg-6 | col-md-6 | col-sm-6 | text-white my-5"
+                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
 
-            <!--Formulario-->
-            <div class="col-8 col-lg-3 | col-md-4 | col-sm-4 | my-5 "
-                style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    <p class="fs-5">MUSCULACIÓN & CLASES</p>
+                    <p class="display-2 fw-bold">PLAN TOTAL MENSUAL</p>
+                    <p class="fs-2">Entrená por $12.000 / mes </p>
+                    <p class="fs-5 fw-bold"> Activate hoy mismo. </p>
+                    <p class="fs-5">Sumate a la cadena líder de gimnasios.</p>
 
-                <form action="" class="text-white fw-bold">
+                </div>
 
-                    <div class="mb-3">
-                        <label class="form-label " for="name">Nombre:</label>
-                        <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su nombre.."
-                            style="background-color: lightgrey;">
-                    </div>
+                <!--Formulario-->
+                <div class="col-8 col-lg-3 | col-md-4 | col-sm-4 | my-3 "
+                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
 
-                    <div class="mb-3">
-                        <label class="form-label" for="email">Email:</label>
-                        <input class="form-control" type="email" id="email" name="email"
-                            placeholder="Ingrese su email.." style="background-color: lightgrey;">
-                    </div>
+                    <form action="" class="text-white fw-bold">
 
-                    <div class="mb-3">
-                        <label class="form-label" for="celular">Celular:</label>
-                        <input class="form-control" type="celular" id="celular" name="celular"
-                            placeholder="Ingrese su celular.." style="background-color: lightgrey;">
-                    </div>
+                        <h3 class="mt-3">Ingresar Datos</h3>
+
+                        <div class="mb-3">
+                            <label class="form-label " for="name">Nombre:</label>
+                            <input class="form-control" type="text" id="name" name="name"
+                                placeholder="Ingrese su nombre.." style="background-color: lightgrey;">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email:</label>
+                            <input class="form-control" type="email" id="email" name="email"
+                                placeholder="Ingrese su email.." style="background-color: lightgrey;">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label" for="celular">Celular:</label>
+                            <input class="form-control" type="celular" id="celular" name="celular"
+                                placeholder="Ingrese su celular.." style="background-color: lightgrey;">
+                        </div>
 
 
-                    <div class="form-check form-switch mb-3">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-                        <label class="form-check-label" for="flexSwitchCheckDefault">Recibir Notificaciones</label>
-                    </div>
+                        <div class="form-check form-switch mb-3">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Recibir novedades</label>
+                        </div>
 
-                    <div class="mb-3">
-                        <label class="form-label" for="comments">Comentarios:</label>
-                        <textarea class="form-control" name="comments" id="comments"
-                            placeholder="Ingresa tu comentario.." style="background-color: lightgrey;"></textarea>
-                    </div>
-                    <input class="btn btn-lg btn-success w-100" type="button" value="Solicitar info">
+                  
+                        <input class="btn btn-lg btn-success w-100" type="button" value="Solicitar info">
 
-                </form>
+                    </form>
+                </div>
+
             </div>
 
         </div>
 
-        <!--Descripcion-->
-        <div class="row" style="background-color: white">
+        <!-- Descripcion -->
+        <div class="row bg-light">
 
-            <div class="container">
+            <div class="text-center mx-auto  my-5 ">
+                <p>EL MEJOR LUGAR PARA ENTRENAR</p>
+                <h3 class="display-4 fw-bold">La red de gimnasios más grande del país </h3>
+                <br>
+                <p>Más de 300 sedes para que elijas cómo y dónde entrenar. </p>
+                <br>
+            </div>
 
-                <div class="text-center mx-auto  my-5 ">
-                    <p>EL MEJOR LUGAR PARA ENTRENAR</p>
-                    <h3 class="display-4 fw-bold">La red de gimnasios más grande del país </h3>
-                    <br>
-                    <p>Más de 300 sedes para que elijas cómo y dónde entrenar. </p>
-                    <br>
-                </div>
 
-                <div class="d-flex my-5">
-                    <ul class="fs-4 mx-auto lista-beneficios">
-                        <li> <i class="bi bi-check-circle-fill" style="opacity: .4"></i> Amplios horarios </li>
-                        <li> <i class="bi bi-check-circle-fill" style=" opacity: .5"></i> Salones climatizados </li>
-                        <li> <i class="bi bi-check-circle-fill" style="opacity: .6"></i> Servicio de lockers </li>
-                        <li> <i class="bi bi-check-circle-fill" style="opacity: .7"></i> Piletas y espacios outdoor </li>
-                        <li> <i class="bi bi-check-circle-fill" style="opacity: .8"></i> App de nutrición gratuita </li>
-                        <li> <i class="bi bi-check-circle-fill" style="opacity: .9"></i> SportClub Online </li>
-                        <li> <i class="bi bi-check-circle-fill" style="opacity:  1 "></i> Wi-fi en todas las sedes </li>
-                    </ul>
-                </div>
+            <div class="d-flex justify-content-center  mb-5">
 
+                <ul class="fs-4  lista-beneficios">
+                    <li> <i class="bi bi-check-circle-fill" style="opacity: .4"></i> Amplios horarios </li>
+                    <li> <i class="bi bi-check-circle-fill" style=" opacity: .5"></i> Salones climatizados </li>
+                    <li> <i class="bi bi-check-circle-fill" style="opacity: .6"></i> Servicio de lockers </li>
+                    <li> <i class="bi bi-check-circle-fill" style="opacity: .7"></i> Piletas y espacios outdoor
+                    </li>
+                    <li> <i class="bi bi-check-circle-fill" style="opacity: .8"></i> App de nutrición gratuita
+                    </li>
+                    <li> <i class="bi bi-check-circle-fill" style="opacity: .9"></i> Entrena Online </li>
+                    <li> <i class="bi bi-check-circle-fill" style="opacity:  1 "></i> Wi-fi en todas las sedes
+                    </li>
+                </ul>
 
             </div>
 
         </div>
+
 
         <!--Banner-->
-        <div class="row">
-            <div class="col-12">
-                <img src="img/banner.jpg" alt="banner" style="  max-width: 100%;
-                ">
-            </div>
+        <div class="row box-img-banner">
+            <img src="img/banner.jpg" alt="banner">
         </div>
+
 
         <!--Preguntas Frecuentes-->
         <div class="row" style="background-color: white">
@@ -192,22 +182,38 @@
             <div class="accordion" id="accordionExample">
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            ¿Qué membresías me ofrecen?
-                        </button>
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿Qué membresías me ofrecen? </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Ofrecemos diferentes membresías para cada uno de sus socios. Conocé cuál es la que más se
+                            Ofrecemos diferentes membresías para cada uno de sus socios. Conocé cuál es la que más
+                            se
                             adapta a vos: <br>
 
                             Black, Platino, Classic, Solo Club, Red Córdoba, Red Rosario, Membresía Kids y Membresía
                             Teens. <br><br>
 
                             <i>Para más información sobre planes y membresías escribinos por WhatsApp.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Puedo darme de baja en cualquier momento?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Claro cuando lo desees puedes tramitar tu baja sin costo alguno.
+                            Comunicate por WhatsApp y un asesor iniciara tu solicitud.
                         </div>
                     </div>
                 </div>
@@ -222,11 +228,14 @@
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Para entrenar en nuestras sedes es necesario que aceptes y firmes la declaración jurada de
+                            Para entrenar en nuestras sedes es necesario que aceptes y firmes la declaración jurada
+                            de
                             aptitud física, requisito que rige para la totalidad de las sedes.
 
-                            Si entrenas en las sedes ubicadas en Provincia de Buenos Aires, Córdoba y Santa Fe deberás
-                            presentar un certificado de Apto Médico. Este requisito no aplica para las sedes ubicadas en
+                            Si entrenas en las sedes ubicadas en Provincia de Buenos Aires, Córdoba y Santa Fe
+                            deberás
+                            presentar un certificado de Apto Médico. Este requisito no aplica para las sedes
+                            ubicadas en
                             Capital Federal, ya que por ley se encuentra eximida.
                         </div>
                     </div>
@@ -242,33 +251,16 @@
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Adquirido el plan, el socio deberá descargar la App, registrarse y aceptar la Declaración
+                            Adquirido el plan, el socio deberá descargar la App, registrarse y aceptar la
+                            Declaración
                             Jurada de Salud. Una vez realizado esto, podrá acceder a las sedes incluidas en su plan
                             acercando el QR en los molinetes de acceso a la misma.
                         </div>
                     </div>
                 </div>
-
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            ¿Puedo darme de baja en cualquier momento?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Claro cuando lo desees puedes tramitar tu baja sin costo alguno.
-                            Comunicate por WhatsApp y un asesor iniciara tu solicitud.
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
         </div>
-
 
     </main>
 
@@ -299,13 +291,25 @@
     <!--End Footer-->
 
 
+
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
+    <!--MyJavaScritp-->
+    <script>
+
+        let docu = document.querySelectorAll('*');
+        docu.forEach(el => {
+            const { offsetWidth } = document.documentElement;
+            if (el.offsetWidth > offsetWidth) {
+                console.log(el)
+            }
+        })
 
 
+    </script>
 </body>
 
 </html>

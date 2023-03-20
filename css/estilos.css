@@ -17,10 +17,13 @@ body {
     background-attachment: fixed;
     background-position: center center;
     min-height: 100vh;
+}
+
+main {
     overflow-x: hidden;
 }
 
-#myVideo {
+.myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -29,6 +32,11 @@ body {
     z-index: -1;
     opacity: .85;
 
+}
+
+.box-img-banner img{
+    min-width: 100%;
+    max-width: 1rem;
 }
 
 
@@ -147,4 +155,46 @@ body {
         text-decoration: dotted;
     }
 
+}
+
+
+.woman-1 {
+    margin-bottom: 10%;
+    position: absolute;
+    max-width: 12rem;
+    animation: w-1 10s ease-in-out infinite;
+}
+
+.woman-2 {
+    margin-bottom: 10%;
+    position: absolute;
+    max-width: 12.5rem;
+    animation: w-2 10s ease-in-out infinite;
+}
+
+@keyframes w-1 {
+
+    0%,
+    100% {
+        transform: translateX(40px);
+    }
+
+    50% {
+        transform: translateX(80px);
+    }
+
+}
+
+
+
+@keyframes w-2 {
+
+    0%,
+    100% {
+        transform: translateX(40px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
 }
