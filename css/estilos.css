@@ -34,7 +34,7 @@ main {
 
 }
 
-.box-img-banner img{
+.box-img-banner img {
     min-width: 100%;
     max-width: 1rem;
 }
@@ -59,7 +59,7 @@ main {
 }
 
 .nav-link:hover {
-    color: ye;
+    color: black;
 }
 
 .navbar-toggler {
@@ -108,16 +108,34 @@ main {
 
 }
 
+.formulario {
+    box-shadow: 0 0 2px white,
+        0 0 50px whitesmoke;
+}
+
+
+
 #btn-asociate {
-    display: flex;
-    justify-content: center;
-    background-color: yellowgreen;
-    border-color: yellowgreen;
+    box-shadow: 0 0 2px rgb(179, 222, 94),
+        0 0 10px rgb(179, 222, 94);
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(204, 247, 78);
+    opacity: .8;
+
+    border-width: 0;
 }
 
 #btn-asociate:hover {
-    background-color: yellow;
-    border-color: yellow;
+    box-shadow: 0 0 15px limegreen,
+        0 0 25px limegreen, 0 0 50px limegreen;
+    background-color: yellowgreen;
+    opacity: 1;
+
+    /*background-color: transparent;
+    */
+
+    color: rgb(227, 234, 227);
 }
 
 .lista-beneficios {
@@ -198,3 +216,23 @@ main {
         transform: translateX(0px);
     }
 }
+
+/* .btn-formulario {
+    box-shadow: 0 0 2px rgb(179, 222, 94),
+        0 0 10px rgb(179, 222, 94);
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(204, 247, 78);
+    opacity: .8;
+    border-width: 0;
+}
+
+.btn-formulario {
+    box-shadow: 0 0 2px rgb(179, 222, 94),
+        0 0 10px rgb(179, 222, 94);
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(204, 247, 78);
+    opacity: .8;
+    border-width: 0;
+} */

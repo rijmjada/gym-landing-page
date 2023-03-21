@@ -54,12 +54,12 @@
                         </a>
                     </li>
 
-            
+
                     <li class="nav-item">
                         <a class="nav-link active fs-5" href="formulario.html">¿Interesado?</a>
                     </li>
 
-                    
+
 
                 </ul>
 
@@ -87,36 +87,36 @@
 
                     <p class="fs-5">MUSCULACIÓN & CLASES</p>
                     <p class="display-2 fw-bold">PLAN TOTAL MENSUAL</p>
-                    <p class="fs-2">Entrená por $12.000 / mes </p>
+                    <p class="fs-2">Entrená por $12.000 al mes </p>
                     <p class="fs-5 fw-bold"> Activate hoy mismo. </p>
                     <p class="fs-5">Sumate a la cadena líder de gimnasios.</p>
 
                 </div>
 
                 <!--Formulario-->
-                <div class="col-8 col-lg-3 | col-md-4 | col-sm-4 | my-3 "
+                <div class="border formulario col-8 col-lg-3 | col-md-4 | col-sm-4 | my-3  "
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
 
-                    <form action="" class="text-white fw-bold">
+                    <form action="https://formsubmit.co/rijmjada@gmail.com" method="post" class="text-white fw-bold ">
 
                         <h3 class="mt-3">Ingresar Datos</h3>
 
                         <div class="mb-3">
                             <label class="form-label " for="name">Nombre:</label>
                             <input class="form-control" type="text" id="name" name="name"
-                                placeholder="Ingrese su nombre.." style="background-color: lightgrey;">
+                                placeholder="Ingrese su nombre.." style="background-color: lightgrey;" required>
                         </div>
 
                         <div class="mb-3">
                             <label class="form-label" for="email">Email:</label>
                             <input class="form-control" type="email" id="email" name="email"
-                                placeholder="Ingrese su email.." style="background-color: lightgrey;">
+                                placeholder="Ingrese su email.." style="background-color: lightgrey;"required>
                         </div>
 
                         <div class="mb-3">
                             <label class="form-label" for="celular">Celular:</label>
                             <input class="form-control" type="celular" id="celular" name="celular"
-                                placeholder="Ingrese su celular.." style="background-color: lightgrey;">
+                                placeholder="Ingrese su celular.." style="background-color: lightgrey;"required>
                         </div>
 
 
@@ -125,9 +125,11 @@
                             <label class="form-check-label" for="flexSwitchCheckDefault">Recibir novedades</label>
                         </div>
 
-                  
-                        <input class="btn btn-lg btn-success w-100" type="button" value="Solicitar info">
-
+                        <div class="text-center mt-4">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:5500//gracias.html">
+                            <input type="hidden" name="_subject" value="New client!">
+                            <button type="submit" class="btn-formulario btn btn-lg btn-success w-100 mb-3">Solicitar info</button>
+                        </div>
                     </form>
                 </div>
 
@@ -298,7 +300,7 @@
         crossorigin="anonymous"></script>
 
     <!--MyJavaScritp-->
-    <script>
+    <!-- <script>
 
         let docu = document.querySelectorAll('*');
         docu.forEach(el => {
@@ -309,7 +311,8 @@
         })
 
 
-    </script>
+    </script> -->
+    
 </body>
 
 </html>
