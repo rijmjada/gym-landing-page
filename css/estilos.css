@@ -19,6 +19,14 @@ body {
     min-height: 100vh;
 }
 
+.box-hero-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
 main {
     overflow-x: hidden;
 }
@@ -44,11 +52,14 @@ main {
     max-width: 15rem;
 }
 
-#title-index {
-    background-color: var(--link-alpha-color);
-    line-height: 1.2;
-    display: inline-block;
-    background-clip: text;
+
+
+.sarazaa {
+    backdrop-filter: blur(3rem);
+    border-radius: 0.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+
 
 }
 
@@ -127,8 +138,8 @@ main {
 }
 
 #btn-asociate:hover {
-    box-shadow: 0 0 15px limegreen,
-        0 0 25px limegreen, 0 0 50px limegreen;
+    box-shadow: 0 0 15px yellowgreen,
+        0 0 25px yellowgreen, 0 0 50px yellowgreen  ;
     background-color: yellowgreen;
     opacity: 1;
 
@@ -176,63 +187,4 @@ main {
 }
 
 
-.woman-1 {
-    margin-bottom: 10%;
-    position: absolute;
-    max-width: 12rem;
-    animation: w-1 10s ease-in-out infinite;
-}
 
-.woman-2 {
-    margin-bottom: 10%;
-    position: absolute;
-    max-width: 12.5rem;
-    animation: w-2 10s ease-in-out infinite;
-}
-
-@keyframes w-1 {
-
-    0%,
-    100% {
-        transform: translateX(40px);
-    }
-
-    50% {
-        transform: translateX(80px);
-    }
-
-}
-
-
-
-@keyframes w-2 {
-
-    0%,
-    100% {
-        transform: translateX(40px);
-    }
-
-    50% {
-        transform: translateX(0px);
-    }
-}
-
-/* .btn-formulario {
-    box-shadow: 0 0 2px rgb(179, 222, 94),
-        0 0 10px rgb(179, 222, 94);
-    cursor: pointer;
-    border-radius: 15px;
-    background-color: rgb(204, 247, 78);
-    opacity: .8;
-    border-width: 0;
-}
-
-.btn-formulario {
-    box-shadow: 0 0 2px rgb(179, 222, 94),
-        0 0 10px rgb(179, 222, 94);
-    cursor: pointer;
-    border-radius: 15px;
-    background-color: rgb(204, 247, 78);
-    opacity: .8;
-    border-width: 0;
-} */
